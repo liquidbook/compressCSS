@@ -3,7 +3,7 @@ compressCSS
 
 CSS Compression class that takes a string and removes the comments, and spaces.
 
-I use this class in my private WordPress plugin. For CSS that is being written into the page. One example is I have a custom field that lets the user add CSS to a given page. The CSS is compressed when the page is called. This leaves the original CSS readable and output the CSS compressed. 
+I use this class in my private WordPress plugin. For CSS that is being written into the page. One example is I have a custom field that lets the user add CSS to a given page. The CSS is compressed when the page is called. This leaves the original CSS readable and the output CSS compressed. 
 
 How to Use
 ==========
@@ -24,7 +24,7 @@ $myCompressedCSS = $compress->compress($myUnCompressedCSS);
 Notes:
 ======
 
-all the class functions are public - nothing here needs to be private.
+All the class functions are public - nothing here needs to be private.
 you could also use.
 ```php
 $myString = $compress->removeComments($myString);
