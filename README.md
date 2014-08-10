@@ -26,6 +26,8 @@ Notes:
 
 all the class functions are public - nothing here needs to be private.
 you could also use.
+```php
 $myString = $compress->removeComments($myString);
 $myString = $compress->removeSpaces($myString);
 $myString = $compress->removeWhiteSpace($myString);
+```
