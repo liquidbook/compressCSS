@@ -7,7 +7,7 @@ I use this class in my private WordPress plug. For CSS that is being written int
 
 How to Use
 ==========
-'''php
+```php
 <?
 /** class the class file */
 require_once( plugin_dir_url(__FILE__) . 'folder_name/class.compressCSS.inc' );
@@ -19,7 +19,7 @@ $compress = new compressCSS();
 /** function take a string and returns a string */
 $myCompressedCSS = $compress->compress($myUnCompressedCSS);
 ?>
-'''
+```
 
 Notes:
 ======
